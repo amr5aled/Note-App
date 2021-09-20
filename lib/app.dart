@@ -12,13 +12,10 @@ import 'ui/localization/app_localizations.dart';
 import 'ui/resources/index.dart';
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   final String route;
 
-  const MyApp({Key? key, required this.route}) : super(key: key);
+   MyApp({required this.route});
 
-  
-  
   @override
   Widget build(BuildContext context) {
     // use the returned token to send messages to users from your custom server
@@ -48,7 +45,7 @@ class MyApp extends StatelessWidget {
                 // navigatorObservers: <NavigatorObserver>[
                 //   FirebaseAnalyticsObserver(analytics: analytics),
                 // ],
-                initialRoute: route,
+                initialRoute: AppRoute.signUp,
 
                 theme: ThemeData(
                   backgroundColor: AppPalette.backgroundColor,

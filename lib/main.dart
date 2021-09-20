@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:note/core/utilities/app_local_storage.dart';
 import 'core/utilities/bloc_observer.dart';
 import 'ui/resources/app_routes.dart';
 import 'app.dart';
@@ -18,13 +19,12 @@ void main() async {
   Bloc.observer = MyBlocObserver();
 
   configureDependencies();
-  FirebaseAuth.instance.userChanges().listen((event) {
-    if (event == null) {
-      route = AppRoute.signUp;
-    } else {
-      route = AppRoute.home;
-    }
-  });
+  String? token = await AppLocalStorage.getString('uid');
+  if (token == null) {
+    route = AppRoute.signUp;
+  } else {
+    route = AppRoute.home;
+  }
 
   runZonedGuarded(() async {
     runApp(AppMainBlocProvider(
