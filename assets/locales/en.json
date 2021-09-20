@@ -1,0 +1,28 @@
+{    
+    "getStarted": "GET STARTED!",
+    "signUpToYourAccount": "Sign up to your account",
+    "loginToYourAccount": "Login to your account",
+    "yourEmail": "Your email",
+    "yourName": "Your name",
+    "createPassword": "Create password",   
+    "signUp": "Signup",
+    "or": "OR",
+    "signUpWithGoogle": "Signup with Google",
+    "signUpWithFacebook": "Signup with Facebook",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithFacebook": "Continue with Facebook",
+    "alreadyHaveAccountLogin": "Already have an account? Login",
+    "dontHaveAccount": "Don't have an account? Signup",
+    "password": "password",
+    "login": "Login",
+    "none": "",
+    "noFileUploadedYet": "No File uploaded yet",
+    "home": "Home",
+    "loading": "Loading",
+    "uploadingToFirebase": "Uplaoding to Firebase"
+
+    
+
+
+}
+

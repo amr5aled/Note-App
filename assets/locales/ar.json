@@ -1,0 +1,21 @@
+{
+    "AppName": "Madar Customer",
+    "NoInternetConnection": "لا يوجد اتصال بالإنترنت",
+    "Login": "تسجيل الدخول",
+    "Password": "كلمة السر",
+    "MobileNumber": "رقم الجوال",
+    "ForgetPassword": "هل نسيت كلمة السر؟",
+    "UserName": "اسم االمستخدم",
+    "EnterYourNameHere": "أدخل بريدك الإلكتروني / الجوال هنا",
+    "Required": "مطلوب",
+    "MinLengthNotValid": "الحد الأدنى من الأحرف هو",
+    "NumRangeNotValid": "يجب أن تكون القيمة فى نطاق",
+    "IntegerNumberNotValid": "يجب أن تكون القيمة عدد صحيح",
+    "EmailNotValid": "صيغة البريد الإلكتروني غير صحيحة",
+    "PasswordNotValid": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل؛ حرف واحد و رقم واحد"
+  
+    
+   
+  
+   
+}
